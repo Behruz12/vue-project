@@ -4,7 +4,7 @@
       <h1>{{ title }}</h1>
       <Button
           @toggle-add-task="$emit('toggle-add-task')"
-          :text="showAddTask ? 'Close Note' : 'Open Add Note'" color="blue"
+          :text="showAddTask ? 'Close Note' : 'Open Add Note'" :color="showAddTask ? 'red' : 'green'"
       />
     </header>
   </div>

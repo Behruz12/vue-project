@@ -12,13 +12,14 @@
           v-model="text"
        >
      </div>
-    <div class="form-control">
+    <div class="form-control" >
       <label>Date and Time</label>
       <input
           type="datetime-local"
           name="day"
           placeholder="Add date and time"
           v-model="day"
+
       >
     </div>
     <div class="form-control form-control-check">

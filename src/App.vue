@@ -2,7 +2,6 @@
   <div class="container">
     <h1>NoteBook</h1>
     <Header
-        title="Note"
         :showAddTask="showAddTask"
         @toggle-add-task="toggleAddTask"
     />
@@ -16,7 +15,7 @@
         @toggle-reminder="toggleReminder"
         @delete-task="deleteTask"
         :tasks="tasks"/>
-    <h6 a>Made by jalbeh@icloud.com</h6>
+    <h6>Made by jalbeh@icloud.com</h6>
   </div>
 
 </template>
